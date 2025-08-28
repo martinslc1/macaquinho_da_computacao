@@ -1,0 +1,25 @@
+valor_pedido = int(input("Qual o valor do pedido? "))
+dias_para_entrega = int(input("Quantos dias para a entrega do seu pedido? "))
+
+if valor_pedido <= 100:
+    if dias_para_entrega >= 7:
+        pedido = ("Pedido normal")
+    else:
+        pedido = ("Pedido prioritario")
+        
+if valor_pedido <= 500:
+    if dias_para_entrega <= 6:
+        pedido = ("Pedido prioritario")
+    else:
+        pedido = ("Pedido normal")
+        
+if valor_pedido >= 500:
+    if dias_para_entrega <= 4:
+        pedido = ("pedido urgente")
+    else:
+        pedido = ("Pedido prioritario")
+        
+else:
+    ("valor do pedido ou dias para a entrega não conformes a nossa empresa")
+    
+print(pedido)
