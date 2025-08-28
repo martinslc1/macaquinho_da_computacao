@@ -1,0 +1,14 @@
+Funcao = str (input("Qual sua função na empresa? "))
+dia_da_semana = str (input("Dia em que você trabalha? "))
+
+dia_da_semana in ("segunda", "terça", "quarta", "quinta", "sexta", "sabado", "domingo")
+Funcao == ("gerente", "analista", "estagiario")
+
+if Funcao == "gerente" and dia_da_semana in ("segunda", "quarto", "sexta"):
+    print("entrada permitida")
+   
+elif Funcao == "analista" and dia_da_semana in ("terca", "quinta", "sabado"):
+    print("entrada valida")
+
+elif Funcao == "estagiario" and dia_da_semana in ("segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo"):
+    print("entrada invalida")
