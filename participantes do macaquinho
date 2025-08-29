@@ -1,0 +1,24 @@
+Participantes = int(input("Quantas pessoas entraram? "))
+Reunião = str(input("Qual o seu tipo de reunião? (normal ou executiva) "))
+
+if Participantes <= 5:
+    if Reunião == "normal":
+        sala = ("vá para a sala normal")
+    else: sala = ("vá para a sala executiva")
+
+elif Participantes <= 14:
+    if Reunião == "normal":
+        sala = ("vá para a sala média")
+    else:
+        sala = ("vá para a sala executiva")
+
+elif Participantes >= 15:
+    if Reunião == "executiva":
+        sala = ("bem-vindo a sala executiva")
+    else:
+        sala = ("agende um dia para utilizar a sala executiva")
+        
+else:
+    sala = ("quantidade inválida")
+
+print(sala)
