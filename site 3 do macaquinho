@@ -1,0 +1,8 @@
+link_site3 = int(input("Quantas pessoas entraram no 3 link? "))
+
+if link_site3 > 1:
+    resolução = 4*link_site3
+    print(resolução, " resolução de entradas do site 1 ")
+else:
+    resolução = "valor não correspondido"
+    print(resolução)
