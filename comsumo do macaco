@@ -1,0 +1,6 @@
+km = int (input("qual a distancia percorrida? "))
+combustivel = int (input("quanto de combustivel foi gasto? "))
+
+comsumo_por_km = km / combustivel
+print("KM/L")
+print(comsumo_por_km)
