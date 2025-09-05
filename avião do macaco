@@ -1,0 +1,9 @@
+competidores = int (input("quantos competidores vão participar? "))
+folhas_compradas = int (input("quantas folhas foram compradas pela diretora? "))
+folhas_receber = int (input("quantas folhas cada competidor vai receber? "))
+
+total = competidores * folhas_receber
+if total <= folhas_compradas:
+    print("S")
+else:
+    print("N")
