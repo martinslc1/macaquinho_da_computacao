@@ -1,0 +1,6 @@
+n = int (input("quantos intervalos voce fez? "))
+t = int (input("km que voce fez por cada intervalo"))
+
+total_km = n % t
+print("total de km percorridos")
+print(total_km)
