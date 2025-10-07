@@ -1,0 +1,20 @@
+arroz = 20
+miojo = 15
+feijao = 10
+bala = 30
+batata = 5
+
+c = (input("Ecreva ver: "))
+
+if c == "ver":
+    arroz = arroz - 3
+    print("arroz: ", arroz)
+    
+    bala = bala - 2
+    print("bala: ", bala)
+    batata = batata + 10
+    print("batata: ", batata)
+    feijao = feijao + 0
+    print("feijao: ", feijao)
+    miojo = miojo + 0 
+    print("miojo: ", miojo)
